@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "./lib",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ES2021",
+    "lib": ["ES2021"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**.spec.ts", "node_modules"]
+}
